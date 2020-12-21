@@ -1,12 +1,12 @@
 %    References:
 
-%    R. Meattini, D. Chiaravalli, G. Palli and C. Melchiorri 
+%    R. Meattini, D. Chiaravalli, G. Palli and C. Melchiorri - University of Bologna - Dept. of Electrical, Electronic and System Eng. (DEI)
 
 %    Exploiting In-Hand Knowledge in Hybrid Joint-Cartesian Mapping for Intuitive Teleoperation of Anthropomorphic Robotic Hands. [Submitted for IEEE Robotics and Automation Letters (RA-L) with option for IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS2020)]
 
 %
 
-%    Copyright (c) 2020. Meattini, D. Chiaravalli, G. Palli and C. Melchiorri
+%    Copyright (c) 2020. R. Meattini, D. Chiaravalli, G. Palli and C. Melchiorri
 
 %
 
