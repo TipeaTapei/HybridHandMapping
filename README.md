@@ -16,5 +16,5 @@ Run HMinstall.m to add the package to matlab path.
 
 Run HybridMapping.m to see the result of the proposed mapping and the related motion between the master and slave hans. It is also possible to evaluate the cartesian trajectory for the slave hand according to the proposed mapping starting from a vector of joint reference for all the fingers.
 
-Run SystemSetup.m to evaluate the workspace of master and slave hand and generate the data structures to implement the hybrid mapping. A precompiled workspace can be loaded from workspace_ready.mat.
+( Optional/advanced: Run SystemSetup.m to evaluate the workspace of master and slave hand and generate the data structures to implement the hybrid mapping. A precompiled workspace can be loaded from workspace_ready.mat.)
 
