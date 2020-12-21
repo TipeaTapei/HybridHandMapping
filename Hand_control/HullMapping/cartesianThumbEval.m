@@ -1,0 +1,21 @@
+function [target_pose]=cartesianThumbEval(poseIn,bariM,bariS,baseM,baseS,baseT,scaleFactor)
+    thumbIn=[poseIn(1,4),poseIn(2,4),poseIn(3,4)];
+    pose=(thumbIn-bariM)*scaleFactor;
+    rotM=tform2rotm(baseM);
+    rotS=tform2rotm(baseS);
+    rotT=tform2rotm(baseT);
+    pose=(rotM\pose')';
+    pose=(rotS*pose')';
+    pose=pose+bariS;
+    pose=(baseT\[pose, 1]')';
+    pose(4)=[];
+    rotpose=tform2rotm(poseIn);
+    rotpose=rotM\rotpose;
+    rotpose=rotS*rotpose;
+    rotpose=rotT\rotpose;
+    rotpose=rotpose*rotx(1.14);
+    target_pose=rotm2tform(rotpose);
+    target_pose(1,4)=pose(1);
+    target_pose(2,4)=pose(2);
+    target_pose(3,4)=pose(3);
+end
