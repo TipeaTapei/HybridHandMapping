@@ -1,12 +1,16 @@
 %    References:
+
 %    R. Meattini, D. Chiaravalli, G. Palli and C. Melchiorri 
+
 %    Exploiting In-Hand Knowledge in Hybrid Joint-Cartesian Mapping for Intuitive Teleoperation of Anthropomorphic Robotic Hands. [Submitted for IEEE Robotics and Automation Letters (RA-L) with option for IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS2020)]
+
 %
+
 %    Copyright (c) 2020. Meattini, D. Chiaravalli, G. Palli and C. Melchiorri
+
 %
-%    *Necessary disclaimer*: The files of this package are distributed in the hope that it will be useful,
-%    but WITHOUT ANY WARRANTY; without even the implied warranty of
-%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+%    *Necessary disclaimer*: The files of this package are distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 This package contains the hybrid master to slave mapping presented in "Exploiting In-Hand Knowledge in Hybrid Joint-Cartesian Mapping for Intuitive Teleoperation of Anthropomorphic Robotic Hands".
 
